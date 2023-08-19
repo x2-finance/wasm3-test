@@ -74,7 +74,7 @@ fn gen_bindings() {
 #[cfg(feature = "build-bindgen")]
 fn gen_bindings() {
     let out_path = PathBuf::from(env::var("OUT_DIR").unwrap());
-
+    eprintln!("out {}", env::var("OUT_DIR").unwrap());
     let wrapper_file = gen_wrapper(&out_path);
 
     let mut bindgen = bindgen::builder()

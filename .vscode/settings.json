@@ -1,0 +1,9 @@
+{
+  "rust-analyzer.linkedProjects": [
+    "./examples/wasm/wasm_in_wasm/Cargo.toml",
+    "./examples/wasm/wasm_in_wasm/Cargo.toml",
+    "./examples/wasm/wasm_in_wasm/Cargo.toml",
+    "./examples/wasm/wasm_in_wasm/Cargo.toml",
+    "./examples/wasm/wasm_in_wasm/Cargo.toml"
+  ]
+}
